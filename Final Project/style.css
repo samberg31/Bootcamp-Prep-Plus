@@ -1,0 +1,41 @@
+
+.intro {
+	background-color: rgb(255, 218, 173);
+	border: (RGB 255, 210, 154);
+	height: 200 px;
+	width: 200 px;
+	text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+body {
+	background-color: rgb(255, 227, 192);
+}
+
+.list li{
+	color: (rgb 255, 210, 154);
+	padding: 5px;
+}
+
+.list a {
+	color: orange;
+}
+
+.container {
+	float: left;
+	padding: 30px;
+	position: relative;
+	text-align: center;
+	color: blue;
+}
+
+
