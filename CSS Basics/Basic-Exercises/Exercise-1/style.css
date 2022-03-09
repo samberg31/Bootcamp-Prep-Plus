@@ -1,0 +1,22 @@
+/*Selector {
+	Proper: value;
+}*/
+
+
+button {
+	background-color: orange;
+	font-size: 18px;
+}
+
+
+p {
+	background-color: blue;
+	font-size: 18px;
+}
+
+div {
+	background-color: red;
+	color: white;
+	font-size: 32 px
+	text-align: center;
+}
