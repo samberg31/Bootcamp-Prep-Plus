@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navbar {
+    
+    position: relative;
+    width: 20%;
+    height: 5;
+    background: #fff;
+    margin: 50px;
+    border: 5px solid green;
+}
+
+.topright {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topright a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+ .products img {
+    text-align: justify;
+    width: 350px;
+    height: 400px;
+}
+
+.products .imagetext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.everybot {
+    float: left;
+    padding: 0%;
+}
+
+.everybot1 {
+    position: relative;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+
+}
+
+ .product1 {
+    border: 5px solid green;
+    margin: 20px;
+    text-align: left;
+    padding: 14px 16px
+}
+
+.imagetext {
+    justify-content: center;
+    
+}
+
+.addtocart {
+  
+  display:block;
+  padding:0.5em 1em 0.5em 1em;
+  border-radius:100px;
+  border:none;
+  font-size:2em;
+  position: relative;
+  background:#0652DD;
+  cursor:pointer;
+  height:1em;
+  width:10em;
+  overflow: hidden;
+  transition: transform 0.1s;
+  z-index:1;
+}
+
+.addtocart:hover {
+  transform:scale(1.1);
+  background-color: yellow;
+}
+
+.pretext{
+  color:#fff;
+  background: lightcoral;
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pretext:hover {
+    background-color: red;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    padding: 35px;
+
+}
+
