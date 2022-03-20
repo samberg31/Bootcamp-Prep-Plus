@@ -40,6 +40,7 @@
 .products .imagetext {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     padding: 100px;
 
@@ -73,11 +74,13 @@
 .addtocart {
   
   display:block;
-  padding:0.5em 1em 0.5em 1em;
+  padding: 10px;
   border-radius:100px;
   border:none;
   font-size:2em;
   position: relative;
+  bottom: 20px;
+  left: 10px;
   background:#0652DD;
   cursor:pointer;
   height:1em;
@@ -94,17 +97,19 @@
 
 .pretext{
   color:#fff;
-  background: lightcoral;
+  background: rgb(204, 131, 131);
   position: absolute;
-  top:0;
+  top: 0;
   left:0;
   height:100%;
   width:100%;
-  display:flex;
+  display: flex;
   justify-content:center;
   align-items:center;
   font-family: 'Quicksand', sans-serif;
 }
+
+
 
 .pretext:hover {
     background-color: red;
@@ -119,7 +124,7 @@ p {
 }
 
 img:hover {
-
+   
     transform: scale(1.1);
 }
 
