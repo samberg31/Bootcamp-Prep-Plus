@@ -3,9 +3,49 @@
 body {
     background-image: url("./headerback.jpg");
     background-attachment: fixed;
-    background-size: cover !important; 
+    background-size: cover; 
     background-position: center;
 }
+
+h1 {
+    color: green;
+    margin: 35;
+    border: 1px solid black;
+}
+
+h2 {
+    padding: 60px;
+   
+    color:  green;
+    border: 1px solid black;
+}
+
+p {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.container .left_side 
+{
+    position: relative;
+    padding: 1; 
+    /* border: 1px solid black; */
+  
+    border-right: 2px solid black;
+}
+
+
+
+ .imgbx 
+    {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
 
 
 
