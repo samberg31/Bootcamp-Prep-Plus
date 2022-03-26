@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    background-image: url("./headerback.jpg");
+    background-attachment: fixed;
+    background-size: cover !important; 
+    background-position: center;
+}
+
+
+
+
+
