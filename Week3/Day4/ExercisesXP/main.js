@@ -93,19 +93,33 @@ else {
 
 
 
-let nameUser = "Lea123"
-let nameUser1 = "Princess45"
-let nameUser2 = "cat_doglovers"
-let nameUser3 = "heloo000"
 
-const Users = (prompt('how many users are online'))
+
+
 
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
 
-switch (users) {
-    case `0`:
-        console.log (`no one is online`);
+
+const Users = (prompt('how many users are online'))
+
+
+let usersOnline = users.length;
+console.log (usersOnline)
+
+switch (usersOnline) {
+    case 0:
+        console.log( `no one is online` );
         break;
-    case `1`:
-        console.log (`${nameUser} is online`);
+    case 1:
+        console.log( `${users[0]} is online` );
+    case 2:
+        console.log( `${users[0]} , ${users[1]} are online` )
+        break;
+    case 3:
+        console.log( `${users[0]} , ${users[2]} , ${users[3]} are online` )
+        break;
+    case 4:
+        console.log( `${users[0]} , ${users[1]} + ${users[2]} +${users[3]} are online` )
+    
 }
+
