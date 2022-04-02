@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: minmax( auto, 2fr ) 1fr  ;
+            /* grid-template-columns: 1.5fr  2fr; */
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 20px 20px;
+            /* grid-column-gap: 10px;
+            grid-row-gap: 10px; */
+            
+        }
+
+        .children {
+            background-color: red;
+            color: white;
+            margin: 20px;
+            width: 30%;
+            
+            grid-row: 1 span;
+           
+        }
+            .yellow {
+                grid-column: 2 span;
+                grid-row: 2 / span 7;
+                background-color: yellow;
+            }
+
+            .gridcontainer2{
+                display: grid;
+            
+                grid-template: "blue blue blue"
+                                "grey yellow blue"
+                                "grey yellow blue"
+                                "blue blue blue";
+                grid-gap: 5px;
+            }
+            .blue {
+                background-color: green;
+                grid-area: ;
+            }
+    </style>
+
+
+    <div class= "container">
+    
+    <div class="children"> hi</div>
+    <div class="children"> hi</div>
+    <div class="children"> hi</div>
+    <div class="children"> hi</div>
+    <div class="children"> hi</div>
+    <div class="children yellow"> hi</div>
+    
+    
+    </div>
+
+    <div class= "container2">
+    
+        <div class="children blue"> hi</div>
+        <div class="children blue"> hi</div>
+        <div class="children"> hi</div>
+        <div class="children"> hi</div>
+        <div class="children blue"> hi</div>
+        <div class="children yellow"> hi</div>
+        
+        
+        </div>
+    
+
+</body>
+</html>

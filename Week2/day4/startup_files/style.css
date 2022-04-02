@@ -1,0 +1,28 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("header.jpg");
+  background-image: cover;
+}
+
+.btn {
+  text-align:center ;
+  position: relative;
+  top: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.startup {
+  padding-top: 3em;
+  color: white;
+  font: 3em sans-serif;
+}
