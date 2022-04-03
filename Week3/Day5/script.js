@@ -81,14 +81,20 @@ for (let y=0; y<colors.length;  y++) {
 // Tip : Which while loop is more relevant for this situation?
 
 
+let inputNumber = "";
+console.log(typeof inputNumber);
+do {
+  inputNumber = prompt(`Give me a number`);
+} while (Number(inputNumber) < 10);
 
-   let c = (prompt("choose a number"))
-   for (let c = 0 ; c < 10 ; c++)
-  while (c++ < 10) {
-    if (c > 0);
-    continue;
+
+//    let c = (prompt("choose a number"))
+//    for (let c = 0 ; c < 10 ; c++)
+//   while (c++ < 10) {
+//     if (c > 0);
+//     continue;
     
-}
+// }
 
 // Exercise 4 : Building Management
 // Instructions: Review About Objects
